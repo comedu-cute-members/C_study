@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 
 
@@ -9,7 +9,7 @@ int main(){
 	scanf("%d %d", &a, &b);
 
 	printf("%6d\n", a * (b % 10));
-	printf("%5d\n", a * ((b % 100) / 10));
+	printf("%5d\n", a * ((b - (b % 10)) / 10 % 10));
 	printf("%4d\n", a * (b / 100));
 	printf("%6d", a * b );
 
