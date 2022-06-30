@@ -11,7 +11,7 @@ int main()
 		if (A == 0 && B == 0)
 			break;
 		else
-			printf("%d", A + B);
+			printf("%d\n", A + B);
 
 
 	}
