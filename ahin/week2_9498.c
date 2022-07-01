@@ -1,22 +1,36 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	int a;
 
-	scanf("%d", &a);
+	int jumsu,mok;
 
-	if (a <= 100 && a >= 90)
+	scanf("%d", &jumsu);
+
+	mok = jumsu / 10;
+
+	switch (mok)
+	{
+	case 10:
+	case 9:
 		printf("A");
-	else if (a < 90 && a >= 80)
+		break;
+
+	case 8:
 		printf("B");
-	else if (a < 80 && a >= 70)
+		break;
+
+	case 7:
 		printf("C");
-	else if (a < 70 && a >= 60)
+		break;
+
+	case 6:
 		printf("D");
-	else
+		break;
+
+	default:
 		printf("F");
-
+		break;
+	}
 	return 0;
-
 }
