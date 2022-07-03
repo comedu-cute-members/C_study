@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() 
+int main() 
 {
     int ten = 0;
     int one = 0;
@@ -8,7 +8,7 @@ void main()
     int n = 0;
     int a = 0;
     int p = 1;
-    
+
     scanf("%d", &a);
     n = a;
 
