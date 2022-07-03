@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+int main() {
+
+	int a, b, c, n;
+	scanf("%d %d %d", &a, &b, &c);
+
+
+	if(a==b) {
+        if(b==c) n=1000*a+10000;
+        else n=100*a+1000;
+	} else {
+        if(b==c) n=100*b+1000;
+        else if(a==c) n=100*a+1000;
+        else {
+            if (a > b && a > c) n = 100 * a;
+            if (b > a && b > c) n = 100 * b;
+            if (c > a && c > b) n = 100 * c;
+        }
+	}
+
+	printf("%d", n);
+
+
+	return 0;
+}
