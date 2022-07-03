@@ -7,20 +7,16 @@ int main() {
 	scanf("%d", &N);
 	int n=N;
 
-	while(1) {
-        if(n<10) n*=11;
-        else {
-            a=n%10;
-            b=(n/10+n%10)%10;
-            n=10*a+b;
-        }
-        count+=1;
-        if(n==N) {
-            printf("%d", count);
-            break;
-        }
+	while(n!=N) {
+        	if(n<10) n*=11;
+        	else {
+        	    a=n%10;
+        	    b=(n/10+n%10)%10;
+         	    n=10*a+b;
+       		}
+        	count+=1;
 	}
-
+	printf("%d", count);
 
 	return 0;
 }
