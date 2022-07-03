@@ -7,7 +7,7 @@ int main() {
 	scanf("%d", &N);
 	int n=N;
 
-	while(n!=N) {
+	while(1) {
         	if(n<10) n*=11;
         	else {
         	    a=n%10;
@@ -15,6 +15,7 @@ int main() {
          	    n=10*a+b;
        		}
         	count+=1;
+        	if(n==N) break;
 	}
 	printf("%d", count);
 
