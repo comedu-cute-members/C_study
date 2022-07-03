@@ -3,14 +3,14 @@
 int main() 
 {
     int N,X;
-    int num;
+    int number;
     scanf("%d %d",&N,&X);
     for(int i=0; i<N ; i++)
     {
-        scanf("%d", &num);
-        if(num < X)
+        scanf("%d", &number);
+        if(number < X)
             {
-                printf("%d ",num);
+                printf("%d ",number);
             }
         
     }
