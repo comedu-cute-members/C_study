@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int main_baekjoon9498() {
+int main() {
 	int score;
 	scanf("%d", &score);
 	switch (score/10) {
