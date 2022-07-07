@@ -7,7 +7,7 @@ int main() {
 	scanf("%d", &count);
 
 	
-	for (; count > 0; count--) {
+	for (; count; count--) {
 		score = 0;
 		scanf("%s", answer);
 		for (int i = 0; i<80; i++){
