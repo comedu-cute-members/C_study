@@ -4,7 +4,6 @@
 int d(n)    
 {
 	int result=n;
-
 	while (n!= 0)
 	{
 		result += n % 10;
@@ -15,7 +14,6 @@ int d(n)
 
 int main()
 {
-	
 	int num, i, self=1;
 	for (num = 1; num <=10000; num++)  
 	{
@@ -30,6 +28,5 @@ int main()
 		}
 		self = 1;
 	}
-
 	return 0;
 }
