@@ -13,7 +13,7 @@ int IdentifySequence(int N)
 		d2= N /10% 10 - N % 10;
 		N = N / 10;
 		if (d1 != d2)
-			continue;
+			return 0;
 		if (N / 100 == 0)
 			if (d1 == d2)
 				return 1;
