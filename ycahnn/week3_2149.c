@@ -5,7 +5,7 @@
 
 int main()
 {
-	char key[11], skey[11], table[10][101], stable[10][101], cyp[101], plain[101];
+	char key[11], skey[11], table[10][101], stable[10][101], cyp[101];
 	int plen=0, klen = 0, loc[10], temp, tempi, len;
 
 	scanf("%s", skey);
