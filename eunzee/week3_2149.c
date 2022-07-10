@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main(){
-    char key[10];
-    char code[100];
+    char key[11];
+    char code[101];
     scanf("%s", key);
     scanf("%s", code);
     
