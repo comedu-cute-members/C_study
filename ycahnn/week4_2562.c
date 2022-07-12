@@ -4,18 +4,16 @@
 int main()
 {
 	int num[9], max, maxnum = 1;
-
+	int* ptr = num;
 	for (int i = 0; i < 9; i++)
-		scanf("%d", &num[i]);
-
-	max = num[0];
-
+		scanf("%d", &ptr[i]);
+	max = ptr[0];
 	for (int i = 0; i < 9; i++)
 	{
-		if (num[i]>max)
+		if (ptr[i] > max)
 		{
-			max = num[i];
-			maxnum = i+1;
+			max = ptr[i];
+			maxnum = i + 1;
 		}
 	}
 	printf("%d\n%d", max, maxnum);
