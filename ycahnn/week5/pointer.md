@@ -75,7 +75,7 @@ ex) char* ptr = "My String";  ->해당 문장을 실행하면 문자열의 그 �
 
 ### 함수 인자 전달 방식
 
-'''
+'''python
 int MyFunc(int num)
 {
 num = num * num;
