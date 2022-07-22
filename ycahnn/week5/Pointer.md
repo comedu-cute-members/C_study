@@ -109,7 +109,7 @@ int main()
 
 함수의 매개변수에 포인터를 선언하고 직접 배열의 주소에 접근해야 한다.
 
-### call-by-value와 call-by-reference  
+## call-by-value와 call-by-reference  
 #### call-by-value: 인자에 단순이 값을 전달(변수에 저장된 값이 복사되어 인자에 전달되기 때문에, 변수에 저장된 값은 바뀌지 않는다)
 
 #### call-by-reference: 인자에 주소를 전달(직접 주소에 접근하여 변수에 저장된 값을 바꾸는 것이 가능하다)
