@@ -75,7 +75,7 @@ ex) char* ptr = "My String";  ->해당 문장을 실행하면 문자열의 그 �
 
 ### 함수 인자 전달 방식
 
-'''python
+```
 int MyFunc(int num)
 {
 num = num * num;
@@ -86,7 +86,7 @@ int main()
   int age;
   MyFunc(age);
 }
-'''
+```
 
 ->age에 저장된 값이 매개변수 num에 복사된다. 따라서 age에 저장되는 값은 바뀌지 않는다.
 
