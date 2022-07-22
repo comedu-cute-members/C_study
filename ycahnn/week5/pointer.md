@@ -74,13 +74,17 @@ ex) char* ptr = "My String";  ->해당 문장을 실행하면 문자열의 그 �
 
 ### 함수 인자 전달 방식
 
-ex) 
+'''C
+
 int MyFunc(int num){. . . .}
 int main()
 {
   int age;
   MyFunc(age);
 }
+
+'''
+
 ->age에 저장된 값이 매개변수 num에 복사된다. 따라서 age에 저장되는 값은 바뀌지 않는다.
 
 
@@ -96,10 +100,10 @@ int main()
 
 ## 포인터 대상의 const 선언(코드의 안전성 확보)
 
-### const int* ptr = &num;
+const int* ptr = &num;
 ->num에 저장된 값을 바꾸는 것은 가능하나, ptr을 이용해서 num에 저장된 값을 바꿀 수는 없다.
 
-### int* const ptr = &num;
+int* const ptr = &num;
 ->ptr에 저장된 num의 주소 값을 바꿀 수 없다.
 
 
