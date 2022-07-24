@@ -128,7 +128,7 @@ int main()
 #### call-by-reference: 인자에 주소를 전달(직접 주소에 접근하여 변수에 저장된 값을 바꾸는 것이 가능하다)
 
 
-## 포인터 대상의 const 선언(코드의 안전성 확보)
+## 포인터 대상의 const 선언
 ```
 const int* ptr = &num;
 ```
