@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 		cnt[i]=a;
 		a++;
 	} 
-	for(int i=0; i<strlen(word);i++){
+	for(int i=0; i<len;i++){
 		if(int(word[i])>=97) word[i]= int(word[i])-32;//전부대문자로
 	}
 	
